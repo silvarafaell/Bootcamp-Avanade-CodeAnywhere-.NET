@@ -9,6 +9,7 @@ namespace PrimeiraAplicacao.Models
     public class Context : DbContext
     {
         public DbSet<Categoria> Categorias { get; set; }
+        public DbSet<Produto> Produtos { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(connectionString: @"Server=DESKTOP-EGDDQI4\SQLEXPRESS;Database=Cursomvc;User Id=sa;Password=1234;");
