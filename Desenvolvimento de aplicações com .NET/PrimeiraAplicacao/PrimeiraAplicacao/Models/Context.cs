@@ -14,5 +14,10 @@ namespace PrimeiraAplicacao.Models
         {
             optionsBuilder.UseSqlServer(connectionString: @"Server=DESKTOP-EGDDQI4\SQLEXPRESS;Database=Cursomvc;User Id=sa;Password=1234;");
         }
+
+        public virtual void SetModified(object entity)
+        {
+            Entry(entity).State = EntityState.Modified;
+        }
     }
 }
