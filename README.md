@@ -5,4 +5,4 @@
 - SQL SERVER - Criando suas primeiras consultas
 - Orientação a objetos em .NET
 - Introdução a microsserviços com .Net
-- Desenvolvimento de aplicações com .Net
+- Desenvolvimento de aplicações com .Net(dotnet core 3.1, WebApi, MVC, publicação no azure)
