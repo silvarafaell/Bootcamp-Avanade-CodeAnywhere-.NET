@@ -9,3 +9,6 @@
 - Criando um App simples de cadastro de series em .Net
 - Fundamentos de Arquitetura de Sistemas
 - Arquitetura de Sistemas Avançado
+- Configuração da arquitetura back-end com .NET Core
+- Criando um catálogo de jogos usando boas práticas de arquitetura com .NET
+- Desenvolvendo sua aplicação com C# usando DDD
